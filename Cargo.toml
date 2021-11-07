@@ -1,0 +1,15 @@
+[package]
+name = "cupsbackend"
+version = "0.1.0"
+description = "Sample CUPS backend in Rust"
+edition = "2021"
+
+[[bin]]
+name = "testbackend"
+path = "src/main.rs"
+
+[dependencies]
+tempfile = "3"
+log = "0.4"
+env_logger = "0.9"
+url = "2"
